@@ -4,15 +4,20 @@
     {
       "name": "annual",
       "path": "annual_prices.csv",
+      "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "Date",
-            "type": "date"
+            "type": "date",
+            "format": "default",
+            "title": "Date"
           },
           {
             "name": "Prices",
-            "type": "number"
+            "type": "integer",
+            "format": "default",
+            "title": "Price"
           }
         ]
       }
@@ -20,15 +25,20 @@
     {
       "name": "monthly",
       "path": "monthly_prices.csv",
+      "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "Date",
-            "type": "date"
+            "type": "date",
+            "format": "default",
+            "title": "Date"
           },
           {
-            "name": "Prices",
-            "type": "number"
+            "name": "Price",
+            "type": "integer",
+            "format": "default",
+            "title": "Price"
           }
         ]
       }
@@ -36,15 +46,20 @@
     {
       "name": "weekly",
       "path": "weekly_prices.csv",
+      "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "Date",
-            "type": "date"
+            "type": "date",
+            "format": "default",
+            "title": "Date"
           },
           {
-            "name": "Prices",
-            "type": "number"
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Price"
           }
         ]
       }
@@ -52,23 +67,30 @@
     {
       "name": "daily",
       "path": "daily_prices.csv",
+      "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "Date",
-            "type": "date"
+            "type": "date",
+            "format": "default",
+            "title": "Date"
           },
           {
-            "name": "Prices",
-            "type": "number"
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Price"
           }
         ]
       }
     }
   ],
-  "description": "Henry Hub Natural Gas Spot Price",
   "name": "data-ops",
   "title": "Henry Hub Price Data",
+  "homepage": "https://data-ops.netlify.com/",
+  "description": "Henry Hub Natural Gas Spot Price",
+  "version": "1.0.0",
   "contributors": [
     {
       "title": "Victor A.",
