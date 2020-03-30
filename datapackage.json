@@ -1,0 +1,85 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "annual",
+      "path": "annual_prices.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Prices",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "monthly",
+      "path": "monthly_prices.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Prices",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "weekly",
+      "path": "weekly_prices.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Prices",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "daily",
+      "path": "daily_prices.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Prices",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Henry Hub Natural Gas Spot Price",
+  "name": "data-ops",
+  "title": "Henry Hub Price Data",
+  "contributors": [
+    {
+      "title": "Victor A.",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ]
+}

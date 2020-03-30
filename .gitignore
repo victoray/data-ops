@@ -1,0 +1,4 @@
+/venv/
+
+# Project exclude paths
+/client/node_modules/
